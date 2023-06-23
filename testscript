@@ -1,0 +1,29 @@
+if game.PlaceId == 4666699735 then
+
+local huydeptrai = loadstring(game:HttpGet("https://sirius.menu/rayfield"))()
+
+Local Window = huydeptrai:CreateWindow({
+    Name = "Script nhà làm",
+    LoadingTitle = "Huy đẹp trai",
+    LoadingSubtitle = "By huydeptrai",
+    ConfigurationSaving = {
+        Enabled = true,
+        FolderName = Huyhub,
+        FileName = "Huy Hub"
+    },
+    Discord = {
+        Enable = false,
+        Invite = "noinvitelink"
+        RememberJoins = true,
+    },
+    KeySystem = true,
+    KeySetting = {
+        Title = "Script nhà làm | Key",
+        Subtitle = "Key System",
+        Note = "cc"
+        FileName = "khonglammadoicoan", 
+        SaveKey = true,
+        GrabKeyFromSite = true,
+        Key = {"https://raw.githubusercontent.com/MercusNguyxn/key/main/keytest"}
+    }
+})
